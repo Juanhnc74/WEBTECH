@@ -1,242 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'includes/header.php'; ?>
+<!-- Resto del contenido de la página -->
 
-<head>
-    <title>Nova Tech</title>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Nova Tech" name="description" >
-    <meta content="" name="keywords" >
-    <meta content="" name="author" >
-    <!-- CSS Files
-    ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
-    <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
-    <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 
-</head>
-
-<body>
-    <div id="wrapper">
-        <div class="float-text show-on-scroll">
-            <span><a href="#">Scroll to top</a></span>
-        </div>
-        <div class="scrollbar-v show-on-scroll"></div>
-        
-        <!-- page preloader begin -->
-        <div id="de-loader"></div>
-        <!-- page preloader close -->
-
-        <!-- header begin -->
-        <header class="transparent has-topbar">
-            <div id="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="d-flex justify-content-between xs-hide">
-                                <div class="d-flex">
-                                    <div class="topbar-widget me-5"><a href="https://g.co/kgs/S1nvrbf"><i class="icofont-location-pin"></i>Tienda: Xicohtencatl 214,  Apizaco, Tlax.</a></div>
-                                    <div class="topbar-widget me-5"><a href="#"><i class="icofont-clock-time"></i>Lunes - Viernes 9:00 - 7:00</a></div>
-                                </div>
-
-                                <div class="d-flex">
-                                    <a class="btn-topbar bg-color me-3" href="book-repair.html">Solicitar Reparación</a>
-                                    <div class="social-icons">
-                                        <a href="https://www.facebook.com/Nova.Tech.Computadoras"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                                        
-                                        <a href="https://www.instagram.com/nova_tech_apizaco/?fbclid=IwY2xjawFtt2VleHRuA2FlbQIxMAABHXwZuaoDAd4CrfYXiyYWX-e4dpPxd-lcPnuS9ESF6sqoq518zRSqkWGIfw_aem_0aReExsi2bdB0kxRTRcCyg"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <!-- logo begin -->
-                                <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo.png" alt="" >
-                                        <img class="logo-scroll" src="images/logo-black.webp" alt="" >
-                                        <img class="logo-mobile" src="images/logo.png" alt="" >
-                                    </a>
-                                </div>
-                                <!-- logo close -->
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4">
-                                                        <div class="row g-3">
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="index.html">
-                                                                        <img src="images/demo/homepage-1.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 2</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-2.html">
-                                                                        <img src="images/demo/homepage-2.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 2</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-3.html">
-                                                                        <img src="images/demo/homepage-3.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 3</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-4.html">
-                                                                        <img src="images/demo/homepage-4.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 4</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-5.html">
-                                                                        <img src="images/demo/homepage-5.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 5</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-6.html">
-                                                                        <img src="images/demo/homepage-6.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 6</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-7.html">
-                                                                        <img src="images/demo/homepage-7.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 7</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-8.html">
-                                                                        <img src="images/demo/homepage-8.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 8</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-9.html">
-                                                                        <img src="images/demo/homepage-9.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 9</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-10.html">
-                                                                        <img src="images/demo/homepage-10.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 10</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-11.html">
-                                                                        <img src="images/demo/homepage-11.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 11</h6>                          
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-5">
-                                                                    <a class="p-0" href="homepage-12.html">
-                                                                        <img src="images/demo/homepage-12.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h6 class="mt-3">Homepage 12</h6>                          
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>                                                
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="services.html">Services</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="services.html">All Services</a></li>
-                                            <li><a class="menu-item" href="single-repair.html">Single Repair</a></li>
-                                            <li><a class="menu-item" href="single-repair-dark.html">Single Repair Dark</a></li>
-                                            <li><a class="menu-item" href="problems-we-repair.html">Problems We Repair</a></li>
-                                            <li><a class="menu-item" href="why-choose-us.html">Why Choose Us</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="book-repair.html">Solicitar Reparación</a></li>
-                                    <li><a class="menu-item" href="track.html">Track My Repair</a></li>  
-                                    <li><a class="menu-item" href="blog.html">Blog</a>  
-                                        <ul>
-                                            <li><a class="menu-item" href="blog.html">Blog Default</a></li>
-                                            <li><a class="menu-item" href="blog-2.html">Blog Style 2</a></li>
-                                            <li><a class="menu-item" href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="contact.html">Contact Light</a></li>
-                                            <li><a class="menu-item" href="contact-dark.html">Contact Dark</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="de-flex-col">
-                                <div class="menu_side_area">  
-                                    <span id="menu-btn"></span>
-                                </div>
-
-                                <div id="btn-extra">
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header close -->
+      
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
 
@@ -412,6 +178,16 @@
                                 </div>
                             </div>
                         </div>
+                        <h2>Iniciar sesión</h2>
+                        <form action="login.php" method="POST">
+                            <label for="username">Nombre de usuario:</label>
+                            <input type="text" id="username" name="username" required><br><br>
+                    
+                            <label for="password">Contraseña:</label>
+                            <input type="password" id="password" name="password" required><br><br>
+                    
+                            <button type="submit">Iniciar sesión</button>
+                        </form>
                         <!--
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
                             <div class="relative">
@@ -1029,89 +805,7 @@
         <!-- content close -->
         
         <!-- footer begin -->
-        <footer class="section-dark">
-            <div class="container">
-                <div class="row gx-5">
-                    <div class="col-lg-4 col-sm-6">
-                        <img src="images/logo.webp" class="w-150px" alt="" >
-                        <div class="spacer-20"></div>
-                        <p>We’re passionate about keeping your gadgets in top shape. Our dedicated team of experienced technicians combines technical expertise with exceptional customer service to provide reliable repairs for all your electronic devices.</p>
-
-                        <div class="social-icons mb-sm-30">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-discord"></i></a>
-                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
-                        <div class="row">
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="widget">
-                                    <h5>Company</h5>
-                                    <ul>                                        
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="services">Our Services</a></li>
-                                        <li><a href="track.html">Track My Repair</a></li>
-                                        <li><a href="book-repair.html">Solicitar Reparación</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="widget">
-                                    <h5>Our Services</h5>
-                                    <ul>
-                                        <li><a href="services.html">Phone Repair</a></li>
-                                        <li><a href="services.html">Tablet Repair</a></li>
-                                        <li><a href="services.html">Computer &amp; Laptop</a></li>
-                                        <li><a href="services.html">Game Console</a></li>
-                                        <li><a href="services.html">Smartwatch Repair</a></li>
-                                        <li><a href="services.html">Software Repair</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
-                        <div class="widget">
-                            <div class="fw-bold text-white"><i class="icofont-clock-time me-2 id-color-2"></i>We're Open</div>
-                            Lunes - Viernes 9:00 - 7:00
-
-                            <div class="spacer-20"></div>
-
-                            <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Workshop Location</div>
-                            100 S Main St, New York, NY
-
-                            <div class="spacer-20"></div>
-
-                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                            contact@gadgetfix.com                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    Copyright 2024 - GadgetFix by Designesia
-                                </div>
-                                <ul class="menu-simple">
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer close -->
+        <?php include 'includes/footer.php'; ?>
     </div>
 
     <!-- overlay content begin -->
@@ -1122,52 +816,52 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo.webp" class="w-150px" alt="">
+            <img src="images/logo.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 
-            <h5 class="mb-3">Our Services</h5>
+            <h5 class="mb-3">Nuestros servicios</h5>
             
             <div class="row g-2">
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
-                        <img src="images/svg-color/iphone-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Phone Repair</h6>
+                        <img src="images/svg-color/pc-display.svg" class="w-50px mb-3" alt="">
+                        <h6 class="mb-0">Reparación de computadoras</h6>
                     </a>
                 </div>
 
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
-                        <img src="images/svg-color/tablet-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Tablet Repair</h6>
+                        <img src="images/svg-color/printer.svg" class="w-50px mb-3" alt="">
+                        <h6 class="mb-0">Mantenimiento impresoras</h6>
                     </a>
                 </div>
 
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
                         <img src="images/svg-color/macbook-pro-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Laptop Repair</h6>
+                        <h6 class="mb-0">Reparación laptops</h6>
                     </a>
                 </div>
 
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
-                        <img src="images/svg-color/game-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Game Console</h6>
+                        <img src="images/svg-color/cart.svg" class="w-50px mb-3" alt="">
+                        <h6 class="mb-0">Consumibles</h6>
                     </a>
                 </div>
 
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
-                        <img src="images/svg-color/smartwatch-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Smartwatch</h6>
+                        <img src="images/svg-color/code-slash.svg" class="w-50px mb-3" alt="">
+                        <h6 class="mb-0">Desarrollo</h6>
                     </a>
                 </div>
 
                 <div class="col-lg-4 col-sm-4">
                     <a class="p-0 py-2 text-center d-block" href="single-repair.html">
                         <img src="images/svg-color/software-svgrepo-com.svg" class="w-50px mb-3" alt="">
-                        <h6 class="mb-0">Software Repair</h6>
+                        <h6 class="mb-0">Software</h6>
                     </a>
                 </div>
             </div>
@@ -1177,7 +871,7 @@
 
             <h5>Contact Us</h5>
             <div><i class="icofont-clock-time me-2 op-5"></i>Lunes - Viernes 9:00 - 7:00</div>
-            <div><i class="icofont-location-pin me-2 op-5"></i>100 S Main St, New York, </div>
+            <div><i class="icofont-location-pin me-2 op-5"></i>Xicohtencatl 214, Apizaco, Tlax. </div>
             <div><i class="icofont-envelope me-2 op-5"></i>contact@gadgetfix.com</div>    
 
             <div class="spacer-30-line"></div>
